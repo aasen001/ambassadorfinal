@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'old';
+  src: url(../fonts/Olondon_.otf) format('opentype');
+
+}
+
+html,body {
+  background-color: #2F3731;
+  scroll-behavior: smooth;
+  background-image: url("../houghton map.png");
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+
+}
+
+
+.container {
+  background-color: rgba(47, 55, 49, 0.9);
+  position: relative;
+  max-width: auto;
+  height: auto;
+}
+
+.rectangle2 {
+  background-color: #7C4539;
+  width: auto;
+  height: 40px;
+}
+
+.fillabumper {
+  font-family: 'IM Fell English', sans-serif;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+.poem {
+  font-family: 'IM Fell English', sans-serif;
+  text-align: center;
+  font-size: 35px;
+  line-height: 90px;
+  color: white;
+}
+
+.rectangle {
+  width: 50%;
+  height: 5px;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  right: 350px;
+  left: 350px;
+  bottom: -170px;
+}
+
+.rectangle1 {
+  background-color: #7C4539;
+  width: auto;
+  height: 40px;
+}
